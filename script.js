@@ -17,7 +17,7 @@ function createHearts() {
     for (let i = 0; i < 100; i++) {
         let heart = document.createElement("div");
         heart.classList.add("heart");
-        heart.innerHTML = "❤️";
+        heart.innerHTML = "🖕​Hijueputa🖕";
 
         // Posición aleatoria en la pantalla
         heart.style.left = `${Math.random() * 100}%`;
