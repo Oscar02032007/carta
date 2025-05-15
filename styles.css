@@ -14,10 +14,22 @@ body {
     position: relative;
 }
 
+img{
+    position: absolute;
+    height: 598px;
+    width: 456px;
+}
+
+img.imagen2{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
 .envelope {
-    width: 390px;
-    height: 250px;
-    background: #8375ff;
+    width: 400px;
+    height: 548px;
+    background: #000000;
     position: relative;
     border-radius: 10px;
     display: flex;
@@ -27,12 +39,13 @@ body {
 }
 
 .flap {
+    color: #fff;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 50%;
-    background: #1035af;
+    background: #3e414b;
     clip-path: polygon(0 0, 100% 0, 50% 50%);
     transition: transform 0.5s ease;
 }
@@ -40,8 +53,8 @@ body {
 .letter {
     width: 90%;
     top: 83px;
-    height: 60%;
-    background: white;
+    height: 93%;
+    background: #ffffff;
     padding: 15px;
     border-radius: 5px;
     position: absolute;
@@ -54,7 +67,7 @@ body {
 
 
 .letter p {
-    color: #3b80ff;
+    color: #000000;
     font-size: 16px;
     font-weight: bold;
 }
@@ -76,10 +89,11 @@ button {
 }
 
 button:hover {
-    background: #000000;
+    background: #9c2121;
 }
 
 .heart {
+    color: #fff;
     position: fixed;
     opacity: 0.8;
     animation: floatUp 3s ease-in-out forwards;
